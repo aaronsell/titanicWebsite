@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">"
+    <link rel="stylesheet" href="style.css">
+    <title>Titanic Passenger Generator</title>
+</head>
+<body>
+    <center>
+        <h1>Titanic Passenger Generator</h1>
+
+                <button class="info-button" id="generate-button" onclick="generateRandomName()">GENERATE PASSENGER/CREW NAME</button>
+                <h2>
+                    RMS Titanic Passenger/Crew Member:<br>
+                <div id="random-name"></div><br>
+                
+                <button class="info-button" id="button1">Their age is:</button><br>
+                <div id="age-info"></div>
+
+                <button class="info-button" id="button2">This person is from:</button><br>
+                <div id="country-info"></div>
+
+                <button class="info-button" id="button3">Boarded the RMS Titanic in:</button><br>
+                <div id="boarding-info"></div>
+
+                <button class="info-button" id="button4">Number of siblings or spouses aboard:</button><br>
+                <div id="sibsp-info"></div>
+
+                <button class="info-button" id="button5">Number of parents or children aboard:</button><br>
+                <div id="parch-info"></div>
+
+                <button class="info-button" id="button6">Class membership:</button><br>
+                <div id="class-info"></div>
+
+                <button class="info-button" id="button7">Cost of fare ($):</button><br>
+                <div id="fare-info"></div>
+
+                <button class="luck-button" id="button8">Does this passenger/crew member survive?</button><br>
+                <div id="survival-info"></div>
+            </h2>
+
+            <br>
+
+            <button onclick="topFunction()" id="scroll-button" title="Go to top">Back to Top</button>
+
+
+            <button id="index-button" style="vertical-align:middle"><span>Reset Everything</span></button>
+
+                <h3>Passenger Status Count</h3>
+                    <div id="survivor-count">Survivors: 0</div>
+                    <div id="non-survivor-count">Non-Survivors: 0</div>
+    
+        <script src="script.js"></script>
+
+    </center>
+</body>
+</html>
